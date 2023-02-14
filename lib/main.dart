@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:szhassistant/tools/size.dart';
 import 'package:szhassistant/widget/mybar.dart';
 import 'package:szhassistant/widget/showdialog.dart';
 import 'runmain/conf.dart';
