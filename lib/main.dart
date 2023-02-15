@@ -21,9 +21,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    myConf(black, white);
+    myConf(color:black, backgroundColor: white);
 
-    return myMaterialApp(const Home(), "");
+    return myMaterialApp(const Home(), "My Example");
   }
 }
 
