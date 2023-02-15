@@ -1,7 +1,8 @@
 name: szhassistant
-description: szh Assistant In Your APP
+description: szh Assistant is used to facilitate the creation of applications and contains some basic things in each application, such as the appbar and dialog, the most used text sizes and the most used colors, and it is also responsive with all screen sizes, and it also contains font Cairo
 version: 0.0.1
 auther: Zangestu
+publish_to: Zangestu
 homepage: https://github.com/zangestu2Eszh/szhassistant
 
 

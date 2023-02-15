@@ -55,7 +55,7 @@ myMaterialApp(Widget? home, String title) {
   );
 }
 
-myConf(Color color, Color bg, String font) {
+myConf(Color color, Color bg) {
   if (Platform.isAndroid) {
     const SystemUiOverlayStyle systemUiOverlayStyle =
         SystemUiOverlayStyle(statusBarColor: Colors.transparent);
@@ -80,7 +80,7 @@ myConf(Color color, Color bg, String font) {
       elevation: 0,
     ),
     textButtonTheme: TextButtonThemeData(style: TextButton.styleFrom()),
-    fontFamily: font,
+    fontFamily: "Cairo",
     colorScheme:
         ColorScheme.fromSwatch(primarySwatch: mycolor).copyWith(background: bg),
   );

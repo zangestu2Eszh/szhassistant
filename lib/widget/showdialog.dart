@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-showMyDailog(BuildContext context, Widget title, List<Widget> children) {
+showMyDailog(BuildContext context, {title, children}) {
   showDialog(
       context: context,
       builder: (BuildContext context) =>
